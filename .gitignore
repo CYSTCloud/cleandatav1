@@ -1,0 +1,29 @@
+# Fichiers de données volumineux
+*.csv
+*.json
+*.xlsx
+*.xls
+
+# Dossiers spécifiques
+/backup/
+/processed/
+/__pycache__/
+**/__pycache__/
+**/*.pyc
+
+# Fichiers de configuration locaux
+config_local.json
+
+# Environnement virtuel
+/venv/
+/env/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
